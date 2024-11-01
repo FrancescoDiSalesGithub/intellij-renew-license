@@ -1,4 +1,4 @@
 user=$(whoami)
 
 cd /home/$user/.config
-rm JetBrains
+rm -r -f JetBrains
